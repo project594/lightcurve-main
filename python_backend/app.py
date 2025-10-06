@@ -123,7 +123,7 @@ def predict_from_json(payload: JsonPayload):
         raise HTTPException(status_code=400, detail=str(e))
 
 
-@app.post("api/predict/csv")
+@app.post("/predict/csv")
 async def predict_from_csv(file: UploadFile):
     """Recibe CSV y devuelve predicciones."""
     try:
