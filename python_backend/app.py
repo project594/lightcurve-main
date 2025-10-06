@@ -22,6 +22,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+UPLOAD_FOLDER = "uploads"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
 # ------------------------------
 # Carga de modelo PyTorch
 # ------------------------------
@@ -118,7 +122,7 @@ def predict_from_json(payload: JsonPayload):
         raise HTTPException(status_code=400, detail=str(e))
 
 
-@app.post("/predict/csv")
+@app.post("api/predict/csv")
 async def predict_from_csv(file: UploadFile):
     """Recibe CSV y devuelve predicciones."""
     try:
