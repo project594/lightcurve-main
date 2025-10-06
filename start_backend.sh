@@ -4,4 +4,4 @@ cd python_backend
 echo "Instalando dependencias..."
 pip install -r requirements.txt
 echo "Iniciando servidor Flask en http://localhost:5000"
-python app.py
+python3 ./app.py
