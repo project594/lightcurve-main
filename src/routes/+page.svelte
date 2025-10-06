@@ -354,8 +354,11 @@
     </p>
     <p>
       Sample data can be found
-      <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative" target="_blank" rel="noopener noreferrer">here</a>.
-      To load your own data, go to the Kepler Objects of Interest database. Select one
+      <a href="https://drive.google.com/drive/folders/1QdANSeKG4FTIyAVT6QMj54wpqdksmXbu?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.
+      Note how in the low disposition example, no false flags are present, and yet the model still correctly determines this as a low disposition score object.
+      To load your own data, go to the 
+      <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative" target="_blank" rel="noopener noreferrer">Kepler Objects of Interest</a> 
+      database. Select one
       Candidate by pressing Clear Checked at the bottom of the page and selecting only one row (this might change in the
       future). Now click on Download Table making sure to select CSV Format, Download All Columns, and Download Checked
       (and Filtered) rows.
