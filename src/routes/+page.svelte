@@ -167,7 +167,7 @@
       const form = new FormData();
       form.append("file", selectedFile);
 
-      const res = await fetch(`/api/predict/csv`, {
+      const res = await fetch("/api/predict/csv", {
         method: "POST",
         body: form
       });
