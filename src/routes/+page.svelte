@@ -345,13 +345,18 @@
     <p>
       Our artificial intelligence model was trained on open datasets from NASA missions such as Kepler and TESS
       to learn characteristic patterns in stellar photometry. Using our own scientific visualization pipeline,
-      developed with Raylib and C, we turn astronomy data into interactive, high-fidelity views. This helps us detect,
-      analyze, and verify new exoplanet candidates with greater clarity and visual understanding than conventional methods.
+      developed with Raylib and C, we use astronomy data, and protray it in a more visual approach, allowing for
+      even non-technical users to have an idea of what's going on.
+    <p>
+      The web app lets you upload data from the Kepler objects of interest database, runs the model on a secure backend, 
+      and only renders the interactive visualization when a strong exoplanet candidate is found. 
+      This keeps the UI clean and avoids misleading demos when there is no detection.
     </p>
     <p>
-      The web app lets you upload a CSV time series, runs the model on a secure backend, and only renders the
-      interactive visualization when a strong exoplanet candidate is found. This keeps the UI clean and avoids
-      misleading demos when there is no detection.
+      Sample data can be found here. To load your own data, go to the Kepler Objects of Interest database. Select one
+      Candidate by pressing Clear Checked at the bottom of the page and selecting only one row (this might change in the
+      future). Now click on Download Table making sure to select CSV Format, Download All Columns, and Download Checked
+      (and Filtered) rows.
     </p>
     <p class="team">Team: Lightcurve SpaceApps Team</p>
   </section>
