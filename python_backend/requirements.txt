@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+pandas
+pillow
+joblib
+scikit-learn
+# PyTorch (CPU): descomenta una de estas dos líneas según tu preferencia
+
+# Opción A: usar PyPI por defecto (muchas veces ya entrega wheel CPU)
+torch

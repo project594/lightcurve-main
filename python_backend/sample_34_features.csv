@@ -1,0 +1,4 @@
+koi_period,koi_time0bk,koi_impact,koi_duration,koi_depth,koi_prad,koi_teq,koi_insol,koi_model_snr,koi_tce_plnt_num,koi_tce_delivname,koi_steff,koi_slogg,koi_srad,ra,dec,koi_kepmag,koi_gmag,koi_rmag,koi_imag,koi_zmag,koi_jmag,koi_hmag,koi_kmag,koi_fwm_sra,koi_fwm_sdec,koi_fwm_sra_err,koi_fwm_sdec_err,koi_fwm_prao,koi_fwm_pdec,koi_fwm_prao_err,koi_fwm_pdec_err,koi_dicco_mra,koi_dicco_mdec
+10.304,1325.292,0.0,2.078,0.0001,1.0,1000.0,1.0,10.0,1,Kepler,5777.0,4.4,1.0,290.0,45.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,290.0,45.0,0.1,0.1,0.0,0.0,0.1,0.1,0.0,0.0
+5.123,1320.456,0.2,1.5,0.0002,1.5,1200.0,1.2,15.0,1,Kepler,6000.0,4.3,1.1,295.0,50.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,295.0,50.0,0.1,0.1,0.0,0.0,0.1,0.1,0.0,0.0
+15.678,1330.123,0.1,3.2,0.0003,2.0,900.0,0.8,8.0,1,Kepler,5500.0,4.5,0.9,285.0,40.0,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,285.0,40.0,0.1,0.1,0.0,0.0,0.1,0.1,0.0,0.0
